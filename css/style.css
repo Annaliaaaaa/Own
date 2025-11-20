@@ -1,15 +1,11 @@
-*{ font-family:georgia, serif; }
-.container {
-  display: flex; /* Enables Flexbox layout */
-  gap: 20px; /* Adds space between tables */
-  justify-content: center; /* Centers the tables horizontally */
-}
-table {
-  border-collapse: collapse;
-  width: 100%; /* Adjust as needed */
-}
-th, td {
-  border: 1px solid black;
-  padding: 8px;
+*.left-aligned-text {
   text-align: left;
 }
+
+* body {
+  font-family: 'Sour Gummy', cursive;
+  /* 'cursive' is a generic fallback font */
+  font-size: 22px;
+  /* Example font size */
+}
+
